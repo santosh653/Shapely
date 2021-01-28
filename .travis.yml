@@ -13,81 +13,197 @@ matrix:
         GEOS_VERSION="3.5.2"
         SPEEDUPS=1
         NUMPY=1
+      arch: amd64 
     - python: "3.5"
       env:
         GEOS_VERSION="3.5.2"
         SPEEDUPS=0
         NUMPY=1
+      arch: amd64
     - python: "3.5"
       env:
         GEOS_VERSION="3.5.2"
         SPEEDUPS=0
         NUMPY=0
+      arch: amd64
     - python: "3.6"
       env:
         GEOS_VERSION="3.6.4"
         SPEEDUPS=1
         NUMPY=1
+      arch: amd64
     - python: "3.6"
       env:
         GEOS_VERSION="3.6.4"
         SPEEDUPS=0
         NUMPY=1
+      arch: amd64
     - python: "3.6"
       env:
         GEOS_VERSION="3.6.4"
         SPEEDUPS=0
         NUMPY=0
+      arch: amd64
     - python: "3.7"
       env:
         GEOS_VERSION="3.7.3"
         SPEEDUPS=1
         NUMPY=1
+      arch: amd64
     - python: "3.7"
       env:
         GEOS_VERSION="3.7.3"
         SPEEDUPS=0
         NUMPY=1
+      arch: amd64
     - python: "3.7"
       env:
         GEOS_VERSION="3.7.3"
         SPEEDUPS=0
         NUMPY=0
+      arch: amd64
     - python: "3.8"
       env:
         GEOS_VERSION="3.8.1"
         SPEEDUPS=1
         NUMPY=1
+      arch: amd64
     - python: "3.8"
       env:
         GEOS_VERSION="3.8.1"
         SPEEDUPS=0
         NUMPY=1
+      arch: amd64
     - python: "3.8"
       env:
         GEOS_VERSION="3.8.1"
         SPEEDUPS=0
         NUMPY=0
+      arch: amd64
     - python: "3.9"
       env:
         GEOS_VERSION="3.9.0beta2"
         SPEEDUPS=1
         NUMPY=1
+      arch: amd64
     - python: "3.9"
       env:
         GEOS_VERSION="3.9.0beta2"
         SPEEDUPS=0
         NUMPY=1
+      arch: amd64
     - python: "3.9"
       env:
         GEOS_VERSION="3.9.0beta2"
         SPEEDUPS=0
         NUMPY=0
+      arch: amd64
     - python: "3.9-dev"
       env:
         GEOS_VERSION="master"
         SPEEDUPS=1
         NUMPY=1
+      arch: amd64
+    
+    
+    - python: "3.5"
+      env:
+        GEOS_VERSION="3.5.2"
+        SPEEDUPS=1
+        NUMPY=1
+      arch: ppc64le 
+    - python: "3.5"
+      env:
+        GEOS_VERSION="3.5.2"
+        SPEEDUPS=0
+        NUMPY=1
+      arch: ppc64le
+    - python: "3.5"
+      env:
+        GEOS_VERSION="3.5.2"
+        SPEEDUPS=0
+        NUMPY=0
+      arch: ppc64le
+    - python: "3.6"
+      env:
+        GEOS_VERSION="3.6.4"
+        SPEEDUPS=1
+        NUMPY=1
+      arch: ppc64le
+    - python: "3.6"
+      env:
+        GEOS_VERSION="3.6.4"
+        SPEEDUPS=0
+        NUMPY=1
+      arch: ppc64le
+    - python: "3.6"
+      env:
+        GEOS_VERSION="3.6.4"
+        SPEEDUPS=0
+        NUMPY=0
+      arch: ppc64le
+    - python: "3.7"
+      env:
+        GEOS_VERSION="3.7.3"
+        SPEEDUPS=1
+        NUMPY=1
+      arch: ppc64le
+    - python: "3.7"
+      env:
+        GEOS_VERSION="3.7.3"
+        SPEEDUPS=0
+        NUMPY=1
+      arch: ppc64le
+    - python: "3.7"
+      env:
+        GEOS_VERSION="3.7.3"
+        SPEEDUPS=0
+        NUMPY=0
+      arch: ppc64le
+    - python: "3.8"
+      env:
+        GEOS_VERSION="3.8.1"
+        SPEEDUPS=1
+        NUMPY=1
+      arch: ppc64le
+    - python: "3.8"
+      env:
+        GEOS_VERSION="3.8.1"
+        SPEEDUPS=0
+        NUMPY=1
+      arch: ppc64le
+    - python: "3.8"
+      env:
+        GEOS_VERSION="3.8.1"
+        SPEEDUPS=0
+        NUMPY=0
+      arch: ppc64le
+    - python: "3.9"
+      env:
+        GEOS_VERSION="3.9.0beta2"
+        SPEEDUPS=1
+        NUMPY=1
+      arch: ppc64le
+    - python: "3.9"
+      env:
+        GEOS_VERSION="3.9.0beta2"
+        SPEEDUPS=0
+        NUMPY=1
+      arch: ppc64le
+    - python: "3.9"
+      env:
+        GEOS_VERSION="3.9.0beta2"
+        SPEEDUPS=0
+        NUMPY=0
+      arch: ppc64le
+    - python: "3.9-dev"
+      env:
+        GEOS_VERSION="master"
+        SPEEDUPS=1
+        NUMPY=1
+      arch: ppc64le
+     
+      
   allow_failures:
     - python: "3.9-dev"
       env:
